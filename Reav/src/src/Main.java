@@ -62,7 +62,7 @@ public class Main {
 						}while(fuel>100);					
 					break;
 					default:
-						System.out.println("não possuimos 4 carros somente 3");
+						System.out.println("não possuimos mais de 3 carros");
 					break;	
 					}
 					System.out.println("abastecido");
@@ -113,7 +113,7 @@ public class Main {
 					}while(speed<=0);					
 				break;
 				default:
-					System.out.println("não possuimos 4 carros somente 3");
+					System.out.println("não possuimos mais de 3 carros");
 				break;	
 				}
 			break;
@@ -163,7 +163,7 @@ public class Main {
 					}while(speed<=0);					
 				break;
 				default:
-					System.out.println("não possuimos 4 carros somente 3");
+					System.out.println("não possuimos mais de 3 carros");
 				break;	
 				}
 			break;
@@ -184,7 +184,7 @@ public class Main {
 					c3.getInfo();
 				break;
 				default:
-					System.out.println("não possuimos 4 carros somente 3");
+					System.out.println("não possuimos mais de 3 carros");
 				break;
 				}
 			break;
@@ -194,5 +194,4 @@ public class Main {
 			}
 		}while(i!=5);
 	}
-
 }
